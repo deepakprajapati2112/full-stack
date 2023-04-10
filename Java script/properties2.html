@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <P id="demo">
+            <script>
+
+                const myjson='{ "name":"Deepak", "age":21}';
+                const myobj=JSON.parse(myjson);
+
+                let text="";
+                for(const x in myobj)
+                {
+                    text+=x+":"+myobj[x]+",";
+                }
+                document.getElementById("demo").innerHTML=text;
+            </script>
+        </P>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>accessing json object</h1>
+
+        <p id="demo"></p>
+
+        <script>
+            const myobj={name:"Deepak",age:25,city:"Lucknow"}
+            myobj["name"]="delhi";
+            //accessing
+            document.getElementById("demo").innerHTML=myobj.city;
+           // document.getElementById("demo").innerHTML=myobj.name;
+            //document.getElementById("demo").innerHTML=myobj.age;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+
+<html>
+    <body>
+        <h1>creating object from json string</h1>
+        <p id="demo">
+            <script>
+
+                const txt='{"name":"Deepak","age":25}'//json string
+
+                const obj=JSON.parse(txt);//converting from json string into object
+                document.getElementById("demo").innerHTML=obj.name+","+obj.age;
+            </script>
+        </p>
+    </body>
+</html>
